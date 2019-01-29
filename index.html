@@ -8,10 +8,12 @@ initial-scale=1.0">
     <title>Andrew Wehmeier</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 </head>
+
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
         <a class="navbar-brand" href="#">Andrew Wehmeier</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -201,19 +203,19 @@ initial-scale=1.0">
             <div class="offset-sm-2 col-sm-8">
                 <form action="">
                     <div class="form-group">
-                        <label for="">Name</label>
+                        <label>Name</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="">Email</label>
+                        <label>Email</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="">Phone</label>
+                        <label>Phone</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="">Message</label>
+                        <label>Message</label>
                         <textarea class="form-control textarea"></textarea>
                     </div>
                     <div class="form-group">
@@ -231,7 +233,15 @@ initial-scale=1.0">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-
+                    <ul class="sci">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                <p class="cprty">
+                    @ Copyright Andrew Wehmeier 2019
+                </p>
             </div>
         </div>
     </div>
@@ -242,5 +252,11 @@ initial-scale=1.0">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).scroll(function() {
+        $('.navbar').toggleClass('scrolled', $(this).
+        scrollTop() > $('.navbar').height())
+    });
+</script>
 </body>
 </html>

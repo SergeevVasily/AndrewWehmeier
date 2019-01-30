@@ -61,6 +61,17 @@ p{
     width: 100%;
     height: 400px;
     background: linear-gradient(#000, transparent);
+    pointer-events: none;
+}
+.banner:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(360deg,#000, transparent);
+    pointer-events: none;
 }
 
 .parallax-window {
@@ -115,4 +126,49 @@ p{
         transform: translate3d(-200vw,0,0);
     }
 
+}
+
+.height100p{
+    height: 100vh;
+}
+
+
+.h100
+{
+    height: 100%
+}
+
+.contentBox
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 10;
+}
+
+
+.contentBox h1{
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    opacity: 0.6;
+
+}
+
+
+.contentBox h2{
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    opacity: 0.6;
+}
+
+.contentBox p{
+
+    color: #fff;
+    font-size: 1.3rem;
 }

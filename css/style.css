@@ -440,4 +440,32 @@ footer{
         font-size: 2rem;
         margin-bottom: 20px;
     }
+
+    .resume{
+
+        padding: 20px 0;
+    }
+
+    .post .imgBx{
+        height: 200px;
+    }
+
+    .contact .container{
+        padding: 20px;
+    }
+
+    .contact .form-control{
+        height: 40px;
+        border: 1px solid #fff;
+    }
+
+    .btnD1{
+        padding: 10px 40px;
+        margin-top: 10px;
+
+    }
+
+    footer{
+        padding: 20px ;
+    }
 }

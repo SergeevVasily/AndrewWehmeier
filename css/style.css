@@ -57,7 +57,7 @@ p{
 }
 
 .banner:before,
-.contact:before
+.sec1:before
 {
     content: '';
     position: absolute;
@@ -68,8 +68,8 @@ p{
     background: linear-gradient(#000, transparent);
     pointer-events: none;
 }
-.banner:after,
-.sec2:after{
+.banner:after
+{
     content: '';
     position: absolute;
     bottom: 0;
@@ -98,14 +98,14 @@ p{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
 }
 
 .fog-img{
     position: absolute;
     height: 100vh;
     width: 300vw;
-    z-index: 2;
+    z-index: 3;
 }
 
 .fog-img-first{
@@ -180,7 +180,7 @@ p{
 }
 
 .sec1{
-    padding: 100px;
+
     background: #000;
 }
 
@@ -468,4 +468,15 @@ footer{
     footer{
         padding: 20px ;
     }
+
+    .sci li{
+        margin: 20px;
+    }
+
+    .sci li a{
+        color: #777;
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+
 }

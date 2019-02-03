@@ -9,13 +9,16 @@ initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
 <header>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="#">Andrew Wehmeier</a>
+        <a class="navbar-brand" href="#" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="3000">Andrew Wehmeier</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,8 +48,8 @@ initial-scale=1.0">
 </header>
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/bgv10.jpg">
 <div class="fog-container">
-    <div class="fog-img fog-img-first"></div>
-    <div class="fog-img fog-img-second"></div>
+    <div class="fog-img fog-img-first" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="100"></div>
+    <div class="fog-img fog-img-second" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000"></div>
 
 </div>
 
@@ -56,10 +59,8 @@ initial-scale=1.0">
         <div class="container h100">
             <div class="contentBox h100">
                 <div style="padding-top: 300px; text-align: center">
-                    <h2 style="color: #fff">Adventurist</h2>
-                    <h1 style="color: #fff"> Landscape Photographer</h1>
-                    <p style="color: #fff">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque, culpa eligendi esse ex
-                        expedita facilis fuga harum inventore labore.</p>
+                    <h2 style="color: #fff" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="1000">Adventurist</h2>
+                    <h1 style="color: #fff" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="1800"> Landscape Photographer</h1>
                 </div>
             </div>
         </div>
@@ -69,63 +70,37 @@ initial-scale=1.0">
 
 
 <section class="sec1" id="about">
+
     <div class="container">
         <div class="row">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
-                    <h2>Hi! I'm Andrew</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt, provident. Aliquam
+                    <div class="imgBx" style="padding-top: 100px;">
+                        <img src="images/hi.JPG" alt="" class="img-fluid" style="border-radius: 50%; height: 200px; width: 200px" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1800">
+                    </div>
+                    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1800" style=""> Hi! I'm Andrew</h2>
+                    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" style="padding-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt, provident. Aliquam
                         aliquid assumenda autem dignissimos expedita id illo impedit iure magni minus molestias, natus
                         quibusdam quos sed, sit tempora?</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="placeBox">
-                    <div class="imgBx">
-                        <img src="images/img1box.JPG" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <h3>Place Name <br> <span>Country Name</span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="placeBox">
-                    <div class="imgBx">
-                        <img src="images/img2box.JPG" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <h3>Place Name <br> <span>Country Name</span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="placeBox">
-                    <div class="imgBx">
-                        <img src="images/img3box.JPG" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <h3>Place Name <br> <span>Country Name</span></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
     </div>
 </section>
 
 <section class="sec2" id="portfolio">
-    <div class="parallax-window2" data-parallax="scroll" data-image-src="images/sec2v3.jpg">
+
+    <div class="parallax-window2" data-parallax="scroll" data-image-src="images/sec2.2.jpg">
         <div class="container h100">
             <div class="contentBox h100">
                 <div style="padding-top: 250px ">
-                    <h2>Andrew Wehmeier</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta similique tenetur vel? Cum
+                    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3800">Gallery</h2>
+                    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta similique tenetur vel? Cum
                         debitis eum eveniet excepturi, id libero mollitia repudiandae vel velit voluptate! Accusamus at
                         itaque nemo nesciunt quia.</p>
-                    <a href="#" class=" btnD1">Read More</a>
+
                 </div>
             </div>
         </div>
@@ -133,8 +108,11 @@ initial-scale=1.0">
 </section>
 
 <section class="resume" id="resume">
+
+
     <div class="container">
-        <div class="row">
+
+        <div class="row" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2>Gallery</h2>
@@ -143,55 +121,117 @@ initial-scale=1.0">
                 </div>
             </div>
         </div>
-        <div class="row">
-        <div class="col-sm-6">
+        <div class="row" >
+        <div class="col-sm-4">
             <div class="post">
                 <div class="imgBx">
-                    <img src="images/img1last.JPG" alt="" class="img-fluid">
+                    <img src="images/bgv2.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                 </div>
-                <div class="content ">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem fugiat incidunt,
-                        iste molestiae neque nisi.</p>
-                </div>
+
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             <div class="post">
                 <div class="imgBx">
-                    <img src="images/img2last.JPG" alt="" class="img-fluid">
+                    <img src="images/bgv5.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
                 </div>
-                <div class="content">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem fugiat incidunt,
-                        iste molestiae neque nisi.</p>
-                </div>
+
             </div>
         </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv4.JPG" alt="" class="img-fluid"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
+                    </div>
+
+                </div>
+            </div>
     </div>
         <div class="row">
             <div class="col-sm-6">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/img3last.JPG" alt="" class="img-fluid">
+                        <img src="images/img3last.JPG" alt="" class="img-fluid" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1000">
                     </div>
-                    <div class="content">
-                        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem fugiat incidunt,
-                            iste molestiae neque nisi.</p>
-                    </div>
+
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/img4last.JPG" alt="" class="img-fluid">
+                        <img src="images/cv2.JPG" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000">
                     </div>
-                    <div class="content">
-                        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem fugiat incidunt,
-                            iste molestiae neque nisi.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv6.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                     </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv10.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv11.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv2.JPG" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv7.JPG" alt="" class="img-fluid" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1500">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv9.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv8.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <img src="images/bgv12.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -200,20 +240,23 @@ initial-scale=1.0">
 
 
 <section class="contact" id="contact">
+    <div class="fog-container" style="opacity: 0.3">
+        <div class="fog-img fog-img-first" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="100"></div>
+        <div class="fog-img fog-img-second" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000"></div>
+
+    </div>
     <div class="parallax-window2" data-parallax="scroll" data-image-src="images/cv2.jpg">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="headerText text-center" style="padding-top: 50px">
+                <div class="headerText text-center" style="padding-top: 50px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                         <h2>Contact Me</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
                 </div>
-
             </div>
         </div>
-        <div class="row clearfix">
-            <div class="offset-sm-2 col-sm-8">
+        <div class="row clearfix" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+            <div class="offset-sm-2 col-sm-8" style="z-index:1">
                 <form action="">
                     <div class="form-group">
                         <label>Name</label>
@@ -273,6 +316,10 @@ initial-scale=1.0">
         $('.navbar').toggleClass('scrolled', $(this).
         scrollTop() > $('.navbar').height())
     });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </body>
 </html>

@@ -10,6 +10,7 @@ initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -23,25 +24,32 @@ initial-scale=1.0">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="transition: 0.5s ease">
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About Me</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#resume">Resume</a>
+                    <a class="nav-link" href="#resume">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item dropdown navbar-dark">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">INSTAGRAM</a>
+                        <a class="dropdown-item" href="#">FACEBOOK</a>
+                        <a class="dropdown-item" href="#">LINKEDIN</a>
+                    </div>
+                </li>
             </ul>
-
         </div>
         </div>
     </nav>
@@ -54,8 +62,6 @@ initial-scale=1.0">
 </div>
 
     <div class="jumbotron-fluid height100p banner" id="home">
-
-
         <div class="container h100">
             <div class="contentBox h100">
                 <div style="padding-top: 300px; text-align: center">
@@ -76,9 +82,9 @@ initial-scale=1.0">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <div class="imgBx" style="padding-top: 100px;">
-                        <img src="images/hi.JPG" alt="" class="img-fluid" style="border-radius: 50%; height: 200px; width: 200px" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1800">
+                        <img src="images/hi.JPG" alt="" class="img-fluid" style="border-radius: 50%; height: 200px; width: 200px" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                     </div>
-                    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1800" style=""> Hi! I'm Andrew</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" style="">Hi! I'm Andrew</h2>
                     <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" style="padding-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt, provident. Aliquam
                         aliquid assumenda autem dignissimos expedita id illo impedit iure magni minus molestias, natus
                         quibusdam quos sed, sit tempora?</p>
@@ -96,7 +102,7 @@ initial-scale=1.0">
         <div class="container h100">
             <div class="contentBox h100">
                 <div style="padding-top: 250px ">
-                    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3800">Gallery</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3800">I like to travel</h2>
                     <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta similique tenetur vel? Cum
                         debitis eum eveniet excepturi, id libero mollitia repudiandae vel velit voluptate! Accusamus at
                         itaque nemo nesciunt quia.</p>
@@ -106,10 +112,7 @@ initial-scale=1.0">
         </div>
         </div>
 </section>
-
 <section class="resume" id="resume">
-
-
     <div class="container">
 
         <div class="row" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000">
@@ -125,7 +128,7 @@ initial-scale=1.0">
         <div class="col-sm-4">
             <div class="post">
                 <div class="imgBx">
-                    <img src="images/bgv2.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <a href="images/gallery/9.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/9.jpg" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"></a>
                 </div>
 
             </div>
@@ -133,7 +136,7 @@ initial-scale=1.0">
         <div class="col-sm-4">
             <div class="post">
                 <div class="imgBx">
-                    <img src="images/bgv5.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                    <a href="images/bgv5.JPG" data-lightbox="mygallery" data-title="Washington State"><img src="images/bgv5.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"></a>
                 </div>
 
             </div>
@@ -141,7 +144,7 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv4.JPG" alt="" class="img-fluid"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
+                        <a href="images/bgv4.JPG" data-lightbox="mygallery" data-title="Washington State"> <img src="images/bgv4.JPG" alt="" class="img-fluid"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000"></a>
                     </div>
 
                 </div>
@@ -151,7 +154,7 @@ initial-scale=1.0">
             <div class="col-sm-6">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/img3last.JPG" alt="" class="img-fluid" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1000">
+                        <a href="images/gallery/35.jpg" data-lightbox="mygallery" data-title="Washington State"><img src="images/gallery/35.jpg" alt="" class="img-fluid" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -159,7 +162,7 @@ initial-scale=1.0">
             <div class="col-sm-6">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/cv2.JPG" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000">
+                        <a href="images/gallery/43.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/43.jpg" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000"> </a>
                     </div>
 
                 </div>
@@ -169,7 +172,7 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv6.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <a href="images/bgv6.JPG" data-lightbox="mygallery" data-title="Washington State"> <img src="images/bgv6.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"> </a>
                     </div>
 
                 </div>
@@ -177,7 +180,7 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv10.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                        <a href="images/bgv10.JPG" data-lightbox="mygallery" data-title="Washington State"><img src="images/bgv10.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -185,7 +188,7 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv11.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <a href="images/bgv11.JPG" data-lightbox="mygallery" data-title="Washington State"> <img src="images/bgv11.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -195,7 +198,7 @@ initial-scale=1.0">
             <div class="col-sm-6">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv2.JPG" alt="" class="img-fluid" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000">
+                        <a href="images/gallery/img3.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/img3.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -203,7 +206,7 @@ initial-scale=1.0">
             <div class="col-sm-6">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv7.JPG" alt="" class="img-fluid" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1500">
+                        <a href="images/gallery/img2.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/img2.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="1000"> </a>
                     </div>
 
                 </div>
@@ -213,7 +216,7 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv9.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                        <a href="images/gallery/24.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/24.jpg" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -221,7 +224,7 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv8.JPG" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <a href="images/gallery/11.jpg" data-lightbox="mygallery" data-title="Washington State">  <img src="images/gallery/11.jpg" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -229,7 +232,93 @@ initial-scale=1.0">
             <div class="col-sm-4">
                 <div class="post">
                     <div class="imgBx">
-                        <img src="images/bgv12.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                        <a href="images/bgv12.JPG" data-lightbox="mygallery" data-title="Washington State"> <img src="images/bgv12.JPG" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/img4.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/img4.jpg" alt="" class="img-fluid" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/img5.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/img5.jpg" alt="" class="img-fluid" data-aos="flip-right" data-aos-duration="3000" data-aos-delay="1000"> </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/41.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/41.jpg" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/19.jpg" data-lightbox="mygallery" data-title="Washington State">  <img src="images/gallery/19.jpg" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/44.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/44.jpg" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/12.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/12.jpg" alt="" class="img-fluid" data-aos="flip-left" data-aos-duration="3000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/27.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/27.jpg" alt="" class="img-fluid" data-aos="flip-right" data-aos-duration="3000" data-aos-delay="1000"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/18.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/18.jpg" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/17.jpg" data-lightbox="mygallery" data-title="Washington State">  <img src="images/gallery/17.jpg" alt="" class="img-fluid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="post">
+                    <div class="imgBx">
+                        <a href="images/gallery/45.jpg" data-lightbox="mygallery" data-title="Washington State"> <img src="images/gallery/45.jpg" alt="" class="img-fluid" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"></a>
                     </div>
 
                 </div>
@@ -311,6 +400,7 @@ initial-scale=1.0">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/parallax.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 <script type="text/javascript">
     $(document).scroll(function() {
         $('.navbar').toggleClass('scrolled', $(this).

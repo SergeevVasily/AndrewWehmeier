@@ -259,7 +259,7 @@ p{
 }
 
 .parallax-window2{
-    min-height: 700px;
+    min-height: 670px;
     background: transparent;
 
 }
@@ -478,5 +478,22 @@ footer{
         font-size: 1.5rem;
         transition: 0.5s;
     }
+}
 
+.dropdown .dropdown-menu{
+    outline: none;
+    background: transparent;
+    color: #fff;
+    transition: 0.5s;
+    border: none;
+}
+
+.dropdown .dropdown-item{
+    color: #fff;
+    border: none;
+}
+
+.dropdown{
+    outline: none;
+    border: none;
 }

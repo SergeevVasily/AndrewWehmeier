@@ -4,9 +4,15 @@
     outline: none; !important;
     scroll-behavior: smooth;
 }
+
+.jumbotron-fluid h2,
+.jumbotron-fluid h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 body{
     background: black;
-    font-family: 'Poppins', sans-serif;
     transition: 0.5s all;
 
 }
@@ -163,20 +169,16 @@ p{
 
 
 .contentBox h1{
-    font-weight: 800;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 4.5rem;
     opacity: 0.6;
 
 }
 
 
 .contentBox h2{
-    font-weight: 800;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 3.5rem;
     opacity: 0.6;
 }
 
@@ -272,11 +274,12 @@ p{
 }
 
 .sec2 h2{
-    font-weight: 800;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     vertical-align: center;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+
 }
 
 .btnD1{

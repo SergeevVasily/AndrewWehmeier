@@ -2,60 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a21051a-f8f2-413e-a7b9-5383ae403b4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/gallery/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgv9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img1box.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img1last.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img2box.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img2last.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img3box.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img3last.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img4last.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sec2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sec2v3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="451" column="18" lean-forward="true" selection-start-line="451" selection-start-column="18" selection-end-line="451" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="672" column="52" selection-start-line="672" selection-start-column="52" selection-end-line="672" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,7 +59,6 @@
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#13;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#16;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -208,12 +175,12 @@
       <workItem from="1548807415111" duration="55449000" />
       <workItem from="1549069402787" duration="24530000" />
       <workItem from="1549163462258" duration="25289000" />
-      <workItem from="1549321520989" duration="36345000" />
+      <workItem from="1549321520989" duration="38810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161652000" />
+    <option name="totallyTimeSpent" value="164117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -336,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="451" column="18" lean-forward="true" selection-start-line="451" selection-start-column="18" selection-end-line="451" selection-end-column="18" />
+        <state relative-caret-position="357">
+          <caret line="672" column="52" selection-start-line="672" selection-start-column="52" selection-end-line="672" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -355,7 +322,6 @@
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#13;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#16;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

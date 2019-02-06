@@ -7,6 +7,7 @@
 body{
     background: black;
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s all;
 
 }
 header{
@@ -25,13 +26,19 @@ p{
     transition: 0.5s;
 }
 
+.navbar .nav-link{
+    transition: 0.5s ;
+}
+
 .navbar .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
     color: #000;
     background: #fff;
+    transition: 0.5s;
 }
 
 .navbar .navbar-nav .active>.nav-link:hover{
     color: #000;
+    transition: 0.5s all;
 }
 
 .navbar .navbar-nav .nav-link:focus,
@@ -434,6 +441,10 @@ footer{
 
     sec1{
         padding: 20px 0;
+    }
+
+    sec1 p{
+        font-size: 9px;
     }
 
     .headerText h2{

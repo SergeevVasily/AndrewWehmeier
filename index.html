@@ -33,14 +33,25 @@ initial-scale=1.0">
                     <a class="nav-link" href="#about">About Me</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#resume">Gallery</a>
+                <li class="nav-item dropdown navbar-dark">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#South">South America</a>
+                        <a class="dropdown-item" href="#Canada">Canada</a>
+                        <a class="dropdown-item" href="#Wyoming">Wyoming</a>
+                        <a class="dropdown-item" href="#Montana">Montana</a>
+                        <a class="dropdown-item" href="#Colorado">Colorado</a>
+                        <a class="dropdown-item" href="#Oregon">Oregon</a>
+                        <a class="dropdown-item" href="#Washington">Washington</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item dropdown navbar-dark">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Social
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -95,7 +106,6 @@ initial-scale=1.0">
                         It was, and still is, the unique blend of beauty and danger that draws me to them.</p>
                     <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3000" style="padding-bottom: 100px; text-align: center; font-size: 23px;">
                         I wish to continue to explore and capture the untouched beauty of mountains around the world with the goal to inspire others, and to show those who do not have the means of seeing for their own eyes, the treasures that this world has to offer.
-
                     </p>
                 </div>
             </div>
@@ -125,7 +135,7 @@ oregon washington
 <section class="resume" id="resume">
     <div class="container">
 
-        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="South">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2>South America</h2>
@@ -206,7 +216,7 @@ oregon washington
                 </div>
             </div>
         </div>
-        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="Canada">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2 style="padding-top: 100px;">Canada</h2>
@@ -258,7 +268,7 @@ oregon washington
                 </div>
             </div>
         </div>
-        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="Wyoming">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2 style="padding-top: 100px;">Wyoming, US</h2>
@@ -313,7 +323,7 @@ oregon washington
                 </div>
             </div>
         </div>
-        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="Montana">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2 style="padding-top: 100px;" >Montana, US</h2>
@@ -371,7 +381,7 @@ oregon washington
             </div>
         </div>
 
-        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="Colorado">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2 style="padding-top: 100px;">Colorado, US</h2>
@@ -407,7 +417,7 @@ oregon washington
             </div>
         </div>
 
-        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+        <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="Oregon">
             <div class="offset-sm-2 col-sm-8">
                 <div class="headerText text-center">
                     <h2 style="padding-top: 100px;">Oregon, US</h2>
@@ -434,7 +444,7 @@ oregon washington
         </div>
 
 
-    <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+    <div class="row" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000" id="Washington">
         <div class="offset-sm-2 col-sm-8">
             <div class="headerText text-center">
                 <h2 style="padding-top: 100px;">Washington, US</h2>
@@ -714,20 +724,19 @@ oregon washington
             <div class="col-sm-12">
                 <div class="headerText text-center" style="padding-top: 50px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                         <h2>Contact Me</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
         <div class="row clearfix" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
             <div class="offset-sm-2 col-sm-8" style="z-index:1">
-                <form action="">
+                <form action="mailto:vasikanava@gmail.com" id="form1" method="post">
                     <div class="form-group">
                         <label>Name</label>
                         <input class="form-control">
                     </div>
                     <div class="form-group" mail="andrew_wehmeier@yahoo.com">
                         <label>Email</label>
-                        <input  class="form-control">
+                        <input  class="form-control" type="text">
                     </div>
                     <div class="form-group">
                         <label>Phone</label>
@@ -735,10 +744,10 @@ oregon washington
                     </div>
                     <div class="form-group">
                         <label>Message</label>
-                        <textarea class="form-control textarea"></textarea>
+                        <textarea class="form-control textarea" size="300"></textarea>
                     </div>
                     <div class="form-group text-center">
-                       <button class=" btnD1">Send</button>
+                       <button class=" btnD1" form="form1" type="submit" value="Send">Send</button>
                     </div>
                 </form>
             </div>
